@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+/*
+*   Section:               IE7 fixes
+*   Description:        hacks and fixes for IE 7
+*/
+
+#sidebar h3{
+    font-weight: normal;
+}
+#sidebar .section ul.gallery li, #sidebar .section ul.community li{
+    margin-bottom: 10px;
+}

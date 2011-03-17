@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+/*
+*   Section:               IE fixes
+*   Description:        hacks and fixes for all IE versions
+*/
+#menu li.current-menu-item a, #menu li:hover a{
+        background: #7c7c7c url(/assets/images/menu_bg.png) repeat-x scroll 0 0;
+}
+#menu li.current-menu-item.green a, #menu li.green:hover a{
+	background: #76a158 url(/assets/images/menu_bg.png) repeat-x scroll 0 -32px;
+}
+#menu li.current-menu-item.pink a, #menu li.pink:hover a{
+	background: #ad4b8f url(/assets/images/menu_bg.png) repeat-x scroll 0 -64px;
+}
+#menu li.current-menu-item.blue a, #menu li.blue:hover a{
+	background: #4b93ad url(/assets/images/menu_bg.png) repeat-x scroll 0 -96px;
+}
+#menu li.current-menu-item.yellow a, #menu li.yellow:hover a{
+	background: #ada14b url(/assets/images/menu_bg.png) repeat-x scroll 0 -128px;
+}
+#menu li.current-menu-item.red a, #menu li.red:hover a{
+	background: #ad4b4b url(/assets/images/menu_bg.png) repeat-x scroll 0 -160px;
+}
